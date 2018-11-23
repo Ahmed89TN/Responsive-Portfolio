@@ -1,0 +1,147 @@
+/**
+ * General Css
+ **/
+ *{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ .wrapper{
+     height: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/204/189/large_2x/blue-paint-on-white-wood-background-vector.jpg");
+ }
+ header{
+     background-color: white;
+     height: 90px;
+     border-bottom-color: aliceblue;
+     
+     
+    
+ }
+ .logo{
+     background-color:  #66e0ff  ;
+     float: left;
+     height: 60px;
+     width: 343px;
+     margin-left: 65px;
+     margin-top: 30px;
+     font-weight: bold;
+     font-family: 'Fugaz One', cursive;
+     text-align: center;
+     font-size: 300%;
+     color: white;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+
+
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+li a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+    margin-right: 50px;
+    font-size: 150%;
+    color:  #66e0ff;
+}
+section{
+    margin-right: -1%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+background-color: white;
+width: 650px;
+height: auto;
+display: inline-block; 
+}
+img{
+    float:left;
+    margin: 6px;
+}
+h1{
+    color: #66e0ff;
+    font-size: 200%;
+    text-align: left;
+    margin-left: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 1.6;
+    padding: 2px;
+}
+footer{
+    background-color: #0059b3;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    bottom:0;
+    position: fixed;
+}
+#cp{
+    margin-top: 30px;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: #66e0ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0059b3;
+}
+.gallery{
+    margin-left: 13px;
+}
+@media only screen and (max-width: 640px) {
+    section {
+        width: 80%;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    section {
+        width: 80%;
+    }
+    
+    }
+
+@media only screen and (max-width: 980px) {
+    section {
+        width: 70%;
+    }
+    
+    }
+ 
